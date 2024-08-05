@@ -1,0 +1,116 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+
+header, main, footer {
+    margin: 0px 60px 0px 60px;
+}
+
+.border {
+    border: 1px solid;
+    background-color: whitesmoke;
+    padding: 5px;
+    text-align: justify;
+    justify-content: center;
+}
+
+body {
+    background-color: rgb(211, 198, 197);
+}
+
+pre {
+    color: rgb(255, 1, 1);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    color: rgb(26, 91, 212);
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 23px;
+}
+
+h5 {
+    font-size: 21px;
+}
+
+strong {
+    color: blueviolet;
+}
+
+mark {
+    background-color: rgb(60, 167, 92);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+}
+
+a {
+    color: rgb(177, 27, 52);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(61, 4, 126);
+}
+
+table,
+tr,
+td {
+    border: 1px solid blue;
+    border-collapse: collapse;
+    width: 30vh;
+    background-color: whitesmoke;
+}
+
+th {
+    border: 1px solid blue;
+    border-bottom: 3px solid blue;
+    border-collapse: collapse;
+    background-color: aqua;
+}
+
+dl {
+    border: 1px solid;
+    background-color: whitesmoke;
+}
+
+ol li {
+    list-style: upper-alpha;
+    margin-left: 50px;
+}
+
+ul li {
+    list-style: square;
+    margin-left: 50px;
+}
+
+td:nth-child(even) {
+    background-color: rgb(218, 211, 211);
+}
+
+iframe {
+    height: 30vh;
+    width: 30vw;
+}
+
+/* .iframe-size {
+    height: 300px;
+    width: 300px;
+} */
